@@ -80,7 +80,8 @@ so if you want create multiple providers you need to put multiple proxy there.
    ```bash
    npm run autoreff
    ```
-
-## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-This project is licensed under the [MIT License](LICENSE).
+# Notes
+- Run this bot, and it will update your referrer code to my invite code if you don't have one.
+- One account only can connect with 10 Proxies.
+- Feel free to enjoy and recode or create new bots using the Oasis API with direct IP that I found.
+- You can just run this bot at your own risk, I'm not responsible for any loss or damage caused by this bot. This bot is for educational purposes only.
