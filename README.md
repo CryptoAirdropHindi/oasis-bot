@@ -39,38 +39,54 @@ so if you want create multiple providers you need to put multiple proxy there.
 
 ## Setup
 
-1. Clone this repository:
+1. Install Node.js
+ ```bash
+   sudo apt update
+sudo apt install nodejs
+sudo apt install npm
+```
+Or, use Node Version Manager (nvm) to install and manage versions of Node.js:
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+nvm install node
+```
+2. Must be install the screen
+```bash
+screen -S oasis
+```
+
+3. Clone this repository:
 
    ```bash
    git clone https://github.com/CryptoAirdropHindi/oasis-bot.git
    cd oasis-bot
    ```
 
-2. Install dependencies:
+4. Install dependencies:
 
    ```bash
    npm install
    ```
 
-3. put your email and pass to `accounts.txt` format `email|password` 1 account for 1 line
+5. put your email and pass to `accounts.txt` format `email|password` 1 account for 1 line
 
    ```bash
    nano accounts.txt
    ```
 
-4. put your proxy to `proxy.txt`
+6. put your proxy to `proxy.txt`
 
    ```bash
    nano proxy.txt
    ```
 
-5. Setup to create accounts/login and get Tokens:
+7. Setup to create accounts/login and get Tokens:
 
    ```bash
    npm run setup
    ```
 
-6. Run The Script:
+8. Run The Script:
 
    ```bash
    npm run start
